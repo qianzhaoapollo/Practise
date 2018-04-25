@@ -1,12 +1,14 @@
 #ifndef LIST_H
 
 #define LIST_H
+
+#include "../stack/stack.h"
 #define ElementType int
 
-struct Node {
-    ElementType data;
-	Node* next;
-};
+// struct Node {
+//     ElementType data;
+// 	Nodet* next;
+// };
 
 typedef Node* PtrNode;
 typedef PtrNode Position;

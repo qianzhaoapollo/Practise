@@ -1,4 +1,3 @@
 [Project]
-Name=practise
 Manager=KDevCMakeManager
-VersionControl=kdevgit
+Name=practise

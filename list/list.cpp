@@ -101,7 +101,7 @@ void test_List()
 	Position Ptr = L;
 	for (int i = 0; i < 10; i++) {
 		Insert(L, Ptr, i);
-// 		Ptr = Ptr->next;
+		Ptr = Ptr->next;
 	}
 
 	Print(L);
